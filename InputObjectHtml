@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Cadastro">
+           <div class="slds-var-m-around_large">
+            <lightning-input label="Primeiro nome: " type="text" name="firstName" onchange={handleInputChange}></lightning-input>
+            <lightning-input label="Sobrenome: " type="text" name="lastName" onchange={handleInputChange}></lightning-input>
+            <lightning-input label="Email" type="email" name="email" onchange={handleInputChange}></lightning-input>
+            <lightning-input label="Website" type="website" name="website" onchange={handleInputChange}></lightning-input>
+            <lightning-input label="Empresa" type="empresa" name="empresa" onchange={handleInputChange}></lightning-input>
+            <lightning-input label="Receita Anual" type="number" name="receitaanual" onchange={handleInputChange}></lightning-input>
+
+            <lightning-button variant="brand" label="Cadastro" title="Primary action" onclick={onSpread}></lightning-button>
+          
+
+          </div>
+    </lightning-card>
+
+</template>
